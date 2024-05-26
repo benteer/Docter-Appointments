@@ -1,0 +1,140 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+ body{
+        background-image: url("imag5.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+    }
+
+
+.note2{
+    display: inline-flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    left: 560px;
+    top: 4.2%;
+
+
+
+}
+
+
+
+.note2 ul{
+    display: inline-flex;
+    position: relative;
+    font-weight: 300;
+    gap: 4.0rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.note2 ul a:hover{
+    color: green;
+}
+
+.note2 ul li{
+    align-items: center;
+    display: flex;
+    gap: 2.3rem;
+    justify-content: space-between;
+
+}
+ .note2  img{
+    width: 160px;
+    height: 160px;
+    display: inline-flex;
+    margin-right:  56px;
+
+    position: relative;
+
+}
+
+.par6 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+}
+
+.par6 p{
+    color: wheat;
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+.btn button{
+    font-weight: 500;
+    font-size: 15px;
+    background-color: black;
+    color: green;
+    border-radius: 2%;
+
+
+}
+
+.btn  a {
+    font-size: 20px;
+
+    
+}
+
+.btn a:hover{
+    color: green;
+}
+
+.par23 p{
+    position: absolute;
+    align-content: center;
+    margin-top: 14%;
+    margin-left: 32%;
+    padding: 12PX 36px;
+    font-size: 70px;
+    color: white;
+    border-radius: 48PX ;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.par23 p:hover{
+    color: #2db612;
+}
+
+
+
+
+
+.para20 a{
+    position: absolute;
+    align-content: center;
+    margin-top: 14%;
+    margin-left: 44%;
+    margin-top: 26%;
+    padding: 12px 36px;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(90deg , #2db612 , #2db612);
+    border-radius: 40px;
+    display: flex;
+  
+
+   
+
+
+
+}

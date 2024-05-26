@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    height: 100vh;
+    width: 280px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    padding-top: 20px;
+ 
+  }
+  
+
+
+  .navbar a {
+    display: block;
+
+    padding: 10px 20px;
+    top: 20px;
+
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+    position: relative;
+    display: flex;
+   
+  }
+  
+  .navbar a.active {
+    background-color: #4CAF50;
+  }
+  
+  .content {
+    margin-left: 390px; /* Adjust based on navbar width */
+    padding: 20px;
+    margin-top: 4%;
+  
+  }
+
+
+
+
+  .content .box{
+    display: inline-flex;
+    position: relative; 
+    gap: 2.3rem;
+    margin-top: 20px;
+
+
+
+    
+
+  }
+
+
+  
+
+  .content .box .doctor{
+    width: 270px;
+    height: 150px;
+    
+    background: rgb(64, 197, 120);
+    box-shadow: 10px solid black;
+    color: azure;
+    display: flex;
+   font-size: 20px;
+   border-radius: 2%;
+  
+   font-weight: 400;
+   box-shadow: 0px 7px 25px rgb( black, black, blue)
+  
+    
+    
+
+
+
+  }
+  
+  .doctor p{
+    color: black;
+    align-items: center;
+    margin-left: 14%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+ 
+
+  }
+
+  .content .box .doctor::hover {
+    box-shadow: 2px solid black;
+  }
+
+
+  .content .box .doctor span{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: black;
+
+  }
+
+
+  .btn {
+
+    display: flex;
+    margin-left: 34%;
+    border: 1px solid black;
+    color: black;
+    padding: auto;
+    font-size: 20px;
+    color: green;
+   
+
+
+
+  }
+
+
+  .apoint
+
+  {
+
+    margin-top: 5px;
+    position: relative;
+    gap: 10.3rem;
+  
+    
+
+  } 
+
+
+  .apoint .appoints{
+    display: flex;
+    gap: 12.3rem;
+    margin-top: 6%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+  }
+
+
+  .apoint .para5
+  {
+    
+    display: flex;
+    
+    gap: 10.5rem;
+
+  }
+
+  .content .box .doctor2{
+    width: 270px;
+    height: 150px;
+    
+    background: rgb(64, 197, 120);
+    box-shadow: 10px solid black;
+    color: azure;
+    display: flex;
+   font-size: 20px;
+   border-radius: 2%;
+  
+   font-weight: 400;
+   box-shadow: 0px 7px 25px rgb( black, black, blue)
+  
+    
+    
+
+    
+    
+
+
+
+  }
+
+  .content.doctor2 p{
+    display: flex;
+    margin-left: 15px;
+
+  }
+
+
+  .doctor2 p{
+    display: flex;
+    margin-left: 20px;
+    color: black;
+    font-size: 20pX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .content .box .doctor2 span{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: black;
+
+
+  }
+
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+  nav{
+    background: #fff;
+  }
+  .side_navbar{
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+  }
+  .side_navbar span{
+    color: gray;
+    margin: 1rem 3rem;
+    font-size: 12px;
+  }
+  .side_navbar a{
+    width: 100%;
+    padding: 0.8rem 3rem;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+  }
+  .links{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .links a{
+    font-size: 13px;
+  }
+  .side_navbar a:hover{
+    background: rgb(235, 235, 235);
+  }
+  .side_navbar .active{
+    border-left: 2px solid rgb(100, 100, 100);
+  }
+  /* Main Body Section */
+  .main-body{
+    width: 70%;
+    padding: 1rem;
+  }
+  .promo_card{
+    width: 100%;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 0.5rem 1rem 1rem 3rem;
+    background: rgb(37, 37, 37);
+  }
+  .promo_card h1, .promo_card span, button{
+    margin: 10px;
+  }
+  .promo_card button{
+    display: block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .history_lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  table{
+    background: #fff;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 10px;
+  }
+  table td, th{
+    padding: 0.2rem 0.8rem;
+  }
+  table th{
+    font-size: 15px;
+  }
+  table td{
+    font-size: 13px;
+    color: rgb(100, 100, 100);
+  }
+  
+
+
+  .main-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: 12%;
+  }
+  
+  .card:first-child {
+    background-color: #2962ff;
+  }
+  
+  .card:nth-child(2) {
+    background-color: #ff6d00;
+  }
+  
+  .card:nth-child(3) {
+    background-color: #2e7d32;
+  }
+  
+  .card:nth-child(4) {
+    background-color: #d50000;
+  }
+  
+  .card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-inner > .material-icons-outlined {
+    font-size: 45px;
+  }
+  

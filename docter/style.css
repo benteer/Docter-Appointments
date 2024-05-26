@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: armenian;
+}
+
+body {
+    background-image: url(imag5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-items: center;
+    margin-right: 34px;
+    align-items: center;
+    position: relative;
+    margin-left: 24%;
+    gap: 2.3rem;
+    font-size: 15px;
+}
+
+nav ul li {
+    display: inline-flex;
+    align-items: center;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: green;
+}
+
+p {
+    color: white;
+    border: 1px solid rgb(10, 161, 43);
+    font-size: 20px;
+}
+
+.p:hover {
+    color: green;
+}
+
+img {
+    margin-top: 4%;
+}
+
+.para3 a {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 67px;
+    margin-top: 6%;
+}
+
+.para3 a:hover {
+    color: green;
+}
+
+.par3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    padding: 20px 40px;
+    color: green;
+}
+
+.par3 span {
+    color: green;
+    padding: 20px 20px;
+    background-color: rgba(19, 197, 19, 0.884);
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+aux-text:hover {
+    color: #006A4E;
+}

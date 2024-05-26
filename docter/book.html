@@ -1,0 +1,78 @@
+<div>
+
+    <h1>COUNT FFK</h1>
+    <span id="count ">0</span>
+</div>
+<script>
+    document.getElementById('addAppointment').addEventListener('click', function() {
+        document.getElementById('appointmentModal').style.display = 'block';
+    });
+
+    document.querySelector('.close').addEventListener('click', function() {
+        document.getElementById('appointmentModal').style.display = 'none';
+    });
+
+    document.getElementById('appointmentForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // Get form values
+        var name = document.getElementById('name').value;
+        var date = document.getElementById('date').value;
+        var time = document.getElementById('time').value;
+        var para4 = document.getElementById('para6').value;
+
+
+        var appointmentDiv = document.createElement('div');
+
+        appointmentDiv.innerHTML = `<div>
+                                    <h1>${name}</h1>
+                                    <p>${date}</p>
+                                    <p>${time}</p>
+                                    <p>${para4}</p>
+                                    </div>`;
+
+
+        // Append appointment to appointments container
+        document.getElementById('appointments').appendChild(appointmentDiv);
+
+        // Close modal
+        document.getElementById('appointmentModal').style.display = 'none';
+
+        addAppointment2();
+
+    });
+
+
+    let cnt = 0;
+
+
+    function addAppointment2() {
+        cnt++;
+        document.getElementById('count').innerHTML = cnt;
+
+        console.log(cnt);
+
+    }
+
+    debian-sys-maint
+
+    $Name = $_POST["Name"];
+   $Email = $_POST["Email"];
+   $Password = $_POST["Password"];
+   
+   $conn = new mysqli('localhost', 'debian-sys-maint', '', 'xveTEC8PboluHpDI');
+   if($conn->connect_error) {
+       die('Connection failed: ' . $conn->connect_error);
+   }
+   else
+   {
+    $stmt = $conn->prepare(('insert into regristation(Name , Email , Password) values(?,?,?)'));
+    $stmt->bind_param("sssssi" , $Name , $Email , $Password);
+    $stmt->execute();
+    echo "regratiff successfully.....";
+    $stmt->close();
+
+    $conn->close();
+   }
+    
+</script>
