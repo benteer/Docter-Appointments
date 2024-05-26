@@ -34,7 +34,7 @@ git clone https://github.com/your-username/doctor-appointment-project.git
 Use code with caution.
 content_copy
 Database Setup:
-Create a database for your project.
+Create a database for your project.ṁ
 Import the provided SQL file (if one exists) to create tables in your database.
 Configuration:
 Edit the config.php file (or similar) to configure database connection details (host, username, password).
