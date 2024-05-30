@@ -29,7 +29,7 @@ Installation:
 
 
 ![WhatsApp Image 2024-05-02 at 8 18 40 PM (3)](https://github.com/benteer/Docter-Appointments/assets/107338393/fc4701a4-0f0e-4949-9e49-41b228d4416e)
-![WhatsApp Image 2024-05-02 at 8 18 40 PM (2)](https://github.com/benteer/Docter-Appointments/assets/107338393/363e9796-3d6f-43c7-9bdd-9c63aa01c9e8)
+
 
 Prerequisites:
 A web server (e.g., Apache, Nginx) with PHP support.
