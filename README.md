@@ -21,11 +21,13 @@ CSS: Styling and visual presentation
 JavaScript: Interactivity and dynamic behavior (e.g., date pickers, form validation).
 
 Back-end: PHP: Server-side scripting for user interactions, database communication, and appointment logic.
-Database: (Specify the database you're using, e.g., MySQL, PostgreSQL) for storing doctor data, patient information, and appointments.
+Database: (Specify the database you're using, e.g., MySQL, PostgreSQL) for storing doctor data, patient information, and appointments.![chrome_vNcJpgE6tV](https://github.com/benteer/Docter-Appointments/assets/107338393/15d50284-9e15-4aca-8169-cab9d5026b85)
+
 Installation:
 ![WhatsApp Image 2024-05-02 at 8 18 40 PM (7)](https://github.com/benteer/Docter-Appointments/assets/107338393/250197c1-b52f-4536-b8e1-1742ee936de4)
 ![WhatsApp Image 2024-05-02 at 8 18 40 PM (6)](https://github.com/benteer/Docter-Appointments/assets/107338393/2dfdbb33-e6d1-4893-97aa-2f6089f36233)
 ![WhatsApp Image 2024-05-02 at 8 18 40 PM (4)](https://github.com/benteer/Docter-Appointments/assets/107338393/cb2e6cee-232b-4163-8250-3045164231eb)
+
 
 
 ![WhatsApp Image 2024-05-02 at 8 18 40 PM (3)](https://github.com/benteer/Docter-Appointments/assets/107338393/fc4701a4-0f0e-4949-9e49-41b228d4416e)
